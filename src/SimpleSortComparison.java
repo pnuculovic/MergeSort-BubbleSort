@@ -86,7 +86,7 @@ public class SimpleSortComparison {
         System.out.println("BubbleSort Time (nanoseconds): " + (bubbleEndTime - bubbleStartTime));
         System.out.println("MergeSort Time (nanoseconds): " + (mergeEndTime - mergeStartTime));
 
-        // Close the scanner to prevent resource leak
+        
         scanner.close();
     }
 }
